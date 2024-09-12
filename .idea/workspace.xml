@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/ApiRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/BaseRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/CucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/WebRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/PurchasePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1725875371203</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit push">
+      <created>1726122125998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726122125998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit push" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
