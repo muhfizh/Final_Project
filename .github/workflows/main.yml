@@ -1,0 +1,41 @@
+name: API and WEB UI Automation Testing
+
+on:
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  API-and-WEB-AutomationTesting :
+    runs-on: ubuntu-latest
+
+    steps:
+    #download repo
+    - uses: actions/checkout@v4
+
+    #setup java
+    - name: Set up JDK 18
+      uses: actions/setup-java@v4
+      with:
+        java-version: '18'
+        distribution: 'temurin'
+
+    #install browser
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@v1.7.2
+      with:
+        chrome-version: 127
+        install-chromedriver: true
+
+   #execute gradle command
+    - name: Setup Gradle 8.5
+      uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: 8.5
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
+    - name: Execute API test
+      run: ./gradlew ApiTesting
+
+    - name: Execute WEB test
+      run: ./gradlew WebTesting
