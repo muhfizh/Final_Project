@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = {"StepDefWeb"},
+        glue = {"com.muhfizh.StepDefWeb"},
         features = {"src/test/java/com/muhfizh/feature/Web.feature"},
         plugin = {"pretty"},
         tags = "@web")
 
-public class WebRunner {
+public class RunnerWeb {
 }
