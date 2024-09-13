@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Get.Json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Post.Json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageApi/ApiPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/ApiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/Api_Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/BaseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/CucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/WebRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Runner/RunnerWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/LoginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/LoginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/ProdukStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/ProdukStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/SignUpStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/SignUpStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/page/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726122432873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit push">
+      <created>1726224540393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726224540393</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit push">
+      <created>1726224599615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726224599615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

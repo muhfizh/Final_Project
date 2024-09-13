@@ -53,9 +53,9 @@ tasks.register('ApiTesting'){
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
                     '--plugin', 'pretty',
-                    '--glue', 'StepDefApi',
+                    '--glue', 'com.muhfizh.StepDefApi',
                     '--tags', '@api',
-                    'src/java/feature/Api.feature'
+                    'src/test/java/com/muhfizh/feature/Api.feature'
             ]
         }
     }
@@ -69,9 +69,9 @@ tasks.register('WebTesting'){
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
                     '--plugin', 'pretty',
-                    '--glue', 'StepDefWeb',
+                    '--glue', 'com.muhfizh.StepDefWeb',
                     '--tags', '@web',
-                    'src/java/feature/Web.feature'
+                    'src/test/java/com/muhfizh/feature/Web.feature'
             ]
         }
     }
