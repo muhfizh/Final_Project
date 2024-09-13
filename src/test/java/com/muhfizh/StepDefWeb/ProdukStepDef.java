@@ -1,6 +1,6 @@
 package com.muhfizh.StepDefWeb;
 
-import com.muhfizh.page.ProductPage;
+import com.muhfizh.pageWeb.ProductPage;
 import io.cucumber.java.en.Then;
 
 public class ProdukStepDef {

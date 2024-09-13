@@ -1,6 +1,6 @@
-package com.muhfizh.page;
+package com.muhfizh.pageWeb;
 
-import com.muhfizh.Runner.BaseRun;
+import com.muhfizh.Utility.BaseRun;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

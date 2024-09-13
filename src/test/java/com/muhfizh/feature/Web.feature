@@ -22,8 +22,8 @@ Feature: Web Otomasi
   Scenario: Masuk dengan username dan password yang benar
     Given pengguna berada pada tampilan utama
     And pengguna menekan label login
-    And pengguna memasukan username dengan "muhfizh_ufi" pada halaman login
-    And pengguna memasukan password dengan "123" pada halaman login
+    And pengguna memasukan username dengan "muhfizh_ufi" dihalaman login
+    And pengguna memasukan password dengan "123" dihalaman login
     When pengguna menekan tombol login
     Then pengguna masuk ke halaman utama
 
@@ -31,8 +31,8 @@ Feature: Web Otomasi
   Scenario: Masuk dengan username yang benar dan password yang salah
     Given pengguna berada pada tampilan utama
     And pengguna menekan label login
-    And pengguna memasukan username dengan "muhfizh_ufi" pada halaman login
-    And pengguna memasukan password dengan "321" pada halaman login
+    And pengguna memasukan username dengan "muhfizh_ufi" dihalaman login
+    And pengguna memasukan password dengan "321" dihalaman login
     When pengguna menekan tombol login
     Then pengguna gagal login dengan pesan "User does not exist."
 

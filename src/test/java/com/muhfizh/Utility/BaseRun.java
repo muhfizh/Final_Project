@@ -1,4 +1,4 @@
-package com.muhfizh.Runner;
+package com.muhfizh.Utility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +27,7 @@ public class BaseRun {
         driver.get("https://www.demoblaze.com/");
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
     }
 
     public void getclosed(){

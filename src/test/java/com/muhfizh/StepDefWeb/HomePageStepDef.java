@@ -1,8 +1,7 @@
 package com.muhfizh.StepDefWeb;
 
-import com.muhfizh.Runner.BaseRun;
-import com.muhfizh.page.HomePage;
-import com.muhfizh.page.ProductPage;
+import com.muhfizh.pageWeb.HomePage;
+import com.muhfizh.pageWeb.ProductPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

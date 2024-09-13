@@ -1,21 +1,20 @@
 package com.muhfizh.StepDefWeb;
 
-import com.muhfizh.Runner.BaseRun;
-import com.muhfizh.page.HomePage;
+import com.muhfizh.pageWeb.HomePage;
+import com.muhfizh.pageWeb.SignUpPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.muhfizh.page.LoginPage;
 
 public class SignUpStepDef {
 
-    LoginPage loginPage;
+    SignUpPage signUpPage;
     HomePage homePage;
 
     public SignUpStepDef(){
         this.homePage = new HomePage();
-        this.loginPage = new LoginPage();
+        this.signUpPage = new SignUpPage();
     }
 
     @Given("pengguna berada pada tampilan daftar")
@@ -25,17 +24,17 @@ public class SignUpStepDef {
 
     @And("pengguna memasukan username dengan {string}")
     public void InputUsernameSignUp(String Username) {
-        loginPage.inputUsernameSignUp(Username);
+        signUpPage.inputUsernameSignUp(Username);
     }
 
     @And("pengguna memasukan password dengan {string}")
     public void InputPasswordSignUp(String Password) {
-        loginPage.inputPasswordSignUp(Password);
+        signUpPage.inputPasswordSignUp(Password);
     }
 
     @When("pengguna menekan tombol sign up")
     public void MenekanTombolSignUp() {
-        loginPage.klikSignUp();
+        signUpPage.klikSignUp();
     }
 
     @Then("muncul pesan {string}")

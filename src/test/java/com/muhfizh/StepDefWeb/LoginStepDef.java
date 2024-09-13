@@ -1,12 +1,11 @@
 package com.muhfizh.StepDefWeb;
 
-import com.muhfizh.Runner.BaseRun;
-import com.muhfizh.page.HomePage;
+import com.muhfizh.pageWeb.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.muhfizh.page.LoginPage;
+import com.muhfizh.pageWeb.LoginPage;
 
 public class LoginStepDef {
 
@@ -23,12 +22,12 @@ public class LoginStepDef {
         homePage.GotoHomepage();
     }
 
-    @And("pengguna memasukan username dengan {string} pada halaman login")
+    @And("pengguna memasukan username dengan {string} dihalaman login")
     public void InputUsernameLogin(String username) {
         loginPage.inputUsernameLogin(username);
     }
 
-    @And("pengguna memasukan password dengan {string} pada halaman login")
+    @And("pengguna memasukan password dengan {string} dihalaman login")
     public void InputPasswordLogin(String password) {
         loginPage.inputPasswordLogin(password);
     }

@@ -1,6 +1,6 @@
-package com.muhfizh.page;
+package com.muhfizh.pageWeb;
 
-import com.muhfizh.Runner.BaseRun;
+import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
 
 public class ProductPage extends BaseRun {

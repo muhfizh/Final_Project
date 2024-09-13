@@ -1,12 +1,12 @@
-package com.muhfizh.page;
+package com.muhfizh.pageWeb;
 
-import com.muhfizh.Runner.BaseRun;
+import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class CartPage extends BaseRun {
+public class CartPage extends BaseRun{
 
     By PlaceOrderBTN = By.xpath("//button[@type = 'button' and (text() = 'Place Order' or . = 'Place Order')]");
+
 
     public void placeorder(){
         driver.findElement(PlaceOrderBTN).click();

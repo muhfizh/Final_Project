@@ -1,4 +1,4 @@
-package com.muhfizh.Runner;
+package com.muhfizh.Utility;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

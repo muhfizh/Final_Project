@@ -1,11 +1,10 @@
 package com.muhfizh.StepDefWeb;
 
-import com.muhfizh.Runner.BaseRun;
-import com.muhfizh.page.HomePage;
+import com.muhfizh.pageWeb.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import com.muhfizh.page.CartPage;
-import com.muhfizh.page.PurchasePage;
+import com.muhfizh.pageWeb.CartPage;
+import com.muhfizh.pageWeb.PurchasePage;
 
 public class PurchaseStepDef {
 
