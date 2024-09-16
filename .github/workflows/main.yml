@@ -42,6 +42,3 @@ jobs:
 
     - name: Execute WEB test
       run: ./gradlew WebTesting
-
-    - name: Allure Report
-      run: allure serve build/allure-results
