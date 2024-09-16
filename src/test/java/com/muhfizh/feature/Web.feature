@@ -4,7 +4,7 @@ Feature: Web Otomasi
   Scenario: Daftar dengan username dan password yang baru
     Given pengguna berada pada tampilan utama
     And pengguna menekan label signup
-    And pengguna memasukan username dengan "Muhfizh_dzm"
+    And pengguna memasukan username dengan "Muhfizhdzm"
     And pengguna memasukan password dengan "123"
     When pengguna menekan tombol sign up
     Then muncul pesan "Sign up successful."

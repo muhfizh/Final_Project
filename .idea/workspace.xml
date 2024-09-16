@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiHooks.java" afterDir="false" />
+    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push edit web &amp; api testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Get.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Get.Json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Post.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Post.Json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/WebHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageApi/ApiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageApi/ApiPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/SignUpPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/Selenium test/untitled",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/Selenium test/untitled&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.RunnerApi">
     <configuration name="Scenario: Pengecekan mendapatkan list pengguna" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -260,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726486440646</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit push edit web &amp; api testing">
+      <created>1726510871290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726510871290</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +268,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit push" />
+    <MESSAGE value="Commit push edit web &amp; api testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit push edit web &amp; api testing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
