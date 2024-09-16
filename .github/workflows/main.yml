@@ -34,8 +34,14 @@ jobs:
         gradle-version: 8.5
     - name: Make gradlew executable
       run: chmod +x ./gradlew
+    - name: Execute build test
+      run: ./gradlew build
+      
     - name: Execute API test
       run: ./gradlew ApiTesting
 
     - name: Execute WEB test
       run: ./gradlew WebTesting
+
+    - name: Allure Report
+      run: allure serve build/allure-results
