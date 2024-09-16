@@ -16,9 +16,9 @@ public class HomePage extends BaseRun {
     By SignupLabel   = By.id("signin2");
     By HomeLabel   = By.xpath("//a[@href = 'index.html' and (text() = 'Home (current)' or . = 'Home (current)')]");
     By CartLabel = By.xpath("//a[@id = 'cartur' and @href = 'cart.html' and (text() = 'Cart' or . = 'Cart')]");
-    By CategoryPhone = By.xpath("//*[@id=\"itemc\" and (text() = \"Phones\" or . = \"Phones\")]");
-    By CategoryLaptop = By.xpath("//*[@id=\"itemc\" and (text() = \"Laptops\" or . = \"Laptops\")]");
-    By CategoryMonitor = By.xpath("//*[@id=\"itemc\" and (text() = \"Monitors\" or . = \"Monitors\")]");
+    By CategoryPhone = By.xpath("//*[@href = '#' and @id = 'itemc' and (text() = 'Phones' or . = 'Phones')]");
+    By CategoryLaptop = By.xpath("//*[@href = '#' and @id = 'itemc' and (text() = 'Laptops' or . = 'Laptops')]");
+    By CategoryMonitor = By.xpath("//*[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]");
 
     public void GotoHomepage() {
         driver.get("https://www.demoblaze.com/");

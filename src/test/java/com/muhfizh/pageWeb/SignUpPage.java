@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 
 public class SignUpPage extends BaseRun {
 
-    By UsernameSgn = By.id("sign-username");
-    By PasswordSgn = By.id("sign-password");
+    By UsernameSgn = By.xpath("//*[@type = 'text' and @id = 'sign-username']");
+    By PasswordSgn = By.xpath("//*[@type = 'password' and @id = 'sign-password']");
     By SignUpBTN = By.xpath("//*[@onclick='register()']");
 
     public void inputUsernameSignUp(String Username){

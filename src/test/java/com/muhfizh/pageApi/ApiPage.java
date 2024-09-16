@@ -42,8 +42,7 @@ public class ApiPage {
 
     public void HitGet(){
         setHeader();
-        respon = (Response) request.get(urlBase1 + "api/user?page=1").then()
-                .log().all();
+        respon = request.get(urlBase1 + "api/users?page=1");
     }
 
     public void HitPost(){
@@ -63,10 +62,10 @@ public class ApiPage {
     public void HitPut(){
         int userId = 2;
         String newName = "Name Muhfizh";
-        String fname = given().when().get("api/users/"+userId).getBody().jsonPath().get("data.first_name");
-        String lname = given().when().get("api/users/"+userId).getBody().jsonPath().get("data.last_name");
-        String avatar = given().when().get("api/users/"+userId).getBody().jsonPath().get("data.avatar");
-        String email = given().when().get("api/users/"+userId).getBody().jsonPath().get("data.email");
+        String fname = given().when().get(urlBase1+"api/users/"+userId).getBody().jsonPath().get("data.first_name");
+        String lname = given().when().get(urlBase1+"api/users/"+userId).getBody().jsonPath().get("data.last_name");
+        String avatar = given().when().get(urlBase1+"api/users/"+userId).getBody().jsonPath().get("data.avatar");
+        String email = given().when().get(urlBase1+"api/users/"+userId).getBody().jsonPath().get("data.email");
         System.out.println("name before = "+fname);
 
         HashMap<String, Object> bodyMap = new HashMap<>();
@@ -94,8 +93,7 @@ public class ApiPage {
 
     public void HitGetInvalid(){
         setHeader();
-        respon = request.header("Authorization","aab8b833dd7d73702fd1b85eecb12")
-                .when().get(urlBase2+"users");
+        respon = request.when().get(urlBase2+"users");
     }
 
     public void HitPostInvalid(){
@@ -109,8 +107,7 @@ public class ApiPage {
         payload.put("email", email);
 
         setHeader();
-        respon = request.header("Authorization","aab8b833dd7d73702fd1b85eecb12")
-                .body(payload.toString()).when().post(urlBase2+"users");
+        respon = request.body(payload.toString()).when().post(urlBase2+"users");
     }
 
     public void ValidasiCode(int Code){
@@ -118,10 +115,10 @@ public class ApiPage {
     }
 
     public void ValidasiBodyget(){
-        List<Object> id = respon.jsonPath().getList("id");
-        List<Object> fname = respon.jsonPath().getList("first_name");
-        List<Object> lname = respon.jsonPath().getList("last_name");
-        List<Object> email = respon.jsonPath().getList("email");
+        List<Object> id = respon.jsonPath().getList("data.id");
+        List<Object> fname = respon.jsonPath().getList("data.first_name");
+        List<Object> lname = respon.jsonPath().getList("data.last_name");
+        List<Object> email = respon.jsonPath().getList("data.email");
 
         assertThat(id.get(0)).isNotNull();
         assertThat(fname.get(0)).isNotNull();
@@ -138,15 +135,15 @@ public class ApiPage {
 
     public void ValidasiBodypost(){
         JsonPath jsonPathEvaluator = respon.jsonPath();
+        String name = jsonPathEvaluator.get("name");
+        String job = jsonPathEvaluator.get("job");
+        String createdAt = jsonPathEvaluator.get("createdAt").toString();
         String id = jsonPathEvaluator.get("id").toString();
-        String email = jsonPathEvaluator.get("email");
-        String first_name = jsonPathEvaluator.get("first_name");
-        String last_name = jsonPathEvaluator.get("last_name");
 
+        assertThat(name).isNotNull();
+        assertThat(job).isNotNull();
+        assertThat(createdAt).isNotNull();
         assertThat(id).isNotNull();
-        assertThat(email).isNotNull();
-        assertThat(first_name).isNotNull();
-        assertThat(last_name).isNotNull();
 
         userID = id;
     }

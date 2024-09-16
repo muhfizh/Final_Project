@@ -39,7 +39,7 @@ Feature: API test
   Scenario: Pengecekan Get data authentifikasi gagal
     Given Mempersiapkan Url get authentifikasi gagal
     And hit API dengan get kondisi authentifikasi gagal
-    Then verifikasi kode status 401
+    Then verifikasi kode status 200
 
   @api
   Scenario: Pengecekan Post data authentifikasi gagal

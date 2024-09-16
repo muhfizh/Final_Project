@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends BaseRun {
 
-    By UsernameTxt = By.id("loginusername");
-    By PasswordTxt = By.id("loginpassword");
+    By UsernameTxt = By.xpath("//*[@type = 'text' and @id = 'loginusername']");
+    By PasswordTxt = By.xpath("//*[@type = 'password' and @id = 'loginpassword']");
     By LoginBTN = By.xpath("//*[@onclick='logIn()']");
 
     public void inputUsernameLogin(String Username){

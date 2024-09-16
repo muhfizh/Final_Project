@@ -1,9 +1,13 @@
-package com.muhfizh.Utility;
+package com.muhfizh.StepDefWeb;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class CucumberHooks extends BaseRun {
+import static com.muhfizh.Utility.BaseRun.getDriver;
+import static com.muhfizh.Utility.BaseRun.GetClosed;
+
+
+public class WebHooks {
 
         @Before
         public void beforeTest() {

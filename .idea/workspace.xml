@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push" />
+    <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Get.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Get.Json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Post.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Json/Post.Json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefApi/ApiStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/HomePageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/PurchaseStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/StepDefWeb/WebHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageApi/ApiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageApi/ApiPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/SignUpPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,24 +64,63 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Final Project/Final_Project",
+    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/Selenium test/untitled",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RunnerWeb">
-    <configuration name="Scenario: Daftar dengan username dan password yang sudah ada" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.RunnerApi">
+    <configuration name="Scenario: Pengecekan mendapatkan list pengguna" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" />
+      <option name="GLUE" value="com.muhfizh.StepDefWeb com.muhfizh.StepDefApi" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final_Project.test" />
+      <option name="NAME_FILTER" value="^Pengecekan mendapatkan list pengguna$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pengecekan mendapatkan list pengguna$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pengecekan mendapatkan list pengguna" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Pengecekan pembuatan data baru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Api.feature" />
+      <option name="GLUE" value="com.muhfizh.StepDefWeb com.muhfizh.StepDefApi" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final_Project.test" />
+      <option name="NAME_FILTER" value="^Pengecekan pembuatan data baru$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pengecekan pembuatan data baru$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pengecekan pembuatan data baru" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory telepon" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
       <option name="GLUE" value="com.muhfizh.StepDefWeb" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Final_Project.test" />
-      <option name="NAME_FILTER" value="^Daftar dengan username dan password yang sudah ada$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Daftar dengan username dan password yang sudah ada$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Daftar dengan username dan password yang sudah ada" />
+      <option name="NAME_FILTER" value="^Pengguna melakukan pembayaran 1 buah produk pada kategory telepon$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pengguna melakukan pembayaran 1 buah produk pada kategory telepon$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory telepon" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -74,27 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Masuk dengan username dan password yang benar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
-      <option name="GLUE" value="com.muhfizh.StepDefWeb com.muhfizh.Utility" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Final_Project.test" />
-      <option name="NAME_FILTER" value="^Masuk dengan username dan password yang benar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Masuk dengan username dan password yang benar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Masuk dengan username dan password yang benar" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RunnerApi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -107,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.muhfizh.Runner.ApiRunner&quot;" />
+            <option value="&quot;com.muhfizh.Runner.RunnerApi&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,43 +178,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebRunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.muhfizh.Runner.WebRunner&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Masuk dengan username dan password yang benar" />
-      <item itemvalue="Cucumber Java.Scenario: Daftar dengan username dan password yang sudah ada" />
+      <item itemvalue="Cucumber Java.Scenario: Pengecekan mendapatkan list pengguna" />
+      <item itemvalue="Cucumber Java.Scenario: Pengecekan pembuatan data baru" />
+      <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory telepon" />
+      <item itemvalue="Gradle.RunnerApi" />
       <item itemvalue="Gradle.RunnerWeb" />
-      <item itemvalue="Gradle.ApiRunner" />
-      <item itemvalue="Gradle.WebRunner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RunnerApi" />
+        <item itemvalue="Cucumber Java.Scenario: Pengecekan pembuatan data baru" />
+        <item itemvalue="Cucumber Java.Scenario: Pengecekan mendapatkan list pengguna" />
         <item itemvalue="Gradle.RunnerWeb" />
-        <item itemvalue="Cucumber Java.Scenario: Masuk dengan username dan password yang benar" />
-        <item itemvalue="Cucumber Java.Scenario: Daftar dengan username dan password yang sudah ada" />
-        <item itemvalue="Gradle.WebRunner (1)" />
-        <item itemvalue="Gradle.ApiRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory telepon" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726486388968</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit push">
+      <created>1726486440646</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726486440646</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

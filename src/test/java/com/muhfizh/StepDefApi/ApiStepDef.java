@@ -9,6 +9,10 @@ public class ApiStepDef {
 
     ApiPage apiPage;
 
+    public ApiStepDef(){
+        this.apiPage = new ApiPage();
+    }
+
     @Given("Mempersiapkan Url Get user")
     public void mempersiapkanUrlGetUser() {
         apiPage.Url1();

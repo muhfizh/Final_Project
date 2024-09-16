@@ -34,7 +34,7 @@ public class HomePageStepDef {
 
     @Then("pengguna memilih kategory laptop")
     public void CategoryLaptop() {
-        homePage.klikKategori("Laptop");
+        homePage.klikKategori("Laptops");
     }
 
     @Then("pengguna menekan tombol home")
@@ -44,7 +44,7 @@ public class HomePageStepDef {
 
     @Then("pengguna memilih kategory monitor")
     public void CategoryMonitor() {
-        homePage.klikKategori("Monitor");
+        homePage.klikKategori("Monitors");
     }
 
     @Then("pengguna masuk ke halaman utama")
@@ -55,5 +55,10 @@ public class HomePageStepDef {
     @And("pengguna menekan label signup")
     public void penggunaMenekanLabelSignup() {
         homePage.kliklabelsignup();
+    }
+
+    @Then("pengguna memilih kategory phone")
+    public void penggunaMemilihKategoryPhone() {
+        homePage.klikKategori("Phones");
     }
 }

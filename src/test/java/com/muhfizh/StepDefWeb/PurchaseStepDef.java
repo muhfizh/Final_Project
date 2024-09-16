@@ -60,11 +60,16 @@ public class PurchaseStepDef {
 
     @Then("pengguna mendapatkan pesan {string}")
     public void penggunaMendapatkanPesan(String pesan) {
-        homePage.ValidasiPesan(pesan);
+        purchasePage.validasiSuccess(pesan);
     }
 
     @Then("pengguna mendapatkan info {string}")
     public void penggunaMendapatkanInfo(String pesan) {
-        homePage.ValidasiPesan(pesan);
+        purchasePage.validasiNamaSuccess(pesan);
+    }
+
+    @Then("pengguna menekan tombol oke")
+    public void penggunaMenekanTombolOke() {
+        purchasePage.KlikOke();
     }
 }
