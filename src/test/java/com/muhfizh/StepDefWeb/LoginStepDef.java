@@ -13,8 +13,8 @@ public class LoginStepDef {
     HomePage homePage;
 
     public LoginStepDef(){
-        this.homePage = new HomePage();
-        this.loginPage = new LoginPage();
+        homePage = new HomePage();
+        loginPage = new LoginPage();
     }
 
     @Given("pengguna berada pada tampilan login")

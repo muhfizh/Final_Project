@@ -13,8 +13,8 @@ public class SignUpStepDef {
     HomePage homePage;
 
     public SignUpStepDef(){
-        this.homePage = new HomePage();
-        this.signUpPage = new SignUpPage();
+        homePage = new HomePage();
+        signUpPage = new SignUpPage();
     }
 
     @Given("pengguna berada pada tampilan daftar")

@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HomePage extends BaseRun {
+
     By productTitle = By.id("nava");
     By LoginLabel   = By.id("login2");
     By SignupLabel   = By.id("signin2");

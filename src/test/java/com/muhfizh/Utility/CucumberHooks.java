@@ -12,6 +12,6 @@ public class CucumberHooks extends BaseRun {
 
         @After
         public void afterTest() {
-            getclosed();
+            GetClosed();
         }
 }

@@ -3,7 +3,8 @@ package com.muhfizh.pageWeb;
 import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
 
-public class SignUpPage extends BaseRun{
+public class SignUpPage extends BaseRun {
+
     By UsernameSgn = By.id("sign-username");
     By PasswordSgn = By.id("sign-password");
     By SignUpBTN = By.xpath("//*[@onclick='register()']");

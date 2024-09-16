@@ -19,6 +19,11 @@ public class ApiPage {
     String urlBase1, urlBase2, userID;
 
     Response respon;
+
+    public ApiPage(){
+
+    }
+
     public static RequestSpecification request;
 
     public static void setHeader(){

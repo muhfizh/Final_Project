@@ -7,14 +7,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class HomePageStepDef{
+public class HomePageStepDef {
 
     HomePage homePage;
     ProductPage productPage;
 
     public HomePageStepDef(){
-        this.homePage = new HomePage();
-        this.productPage = new ProductPage();
+        homePage = new HomePage();
+        productPage = new ProductPage();
     }
 
     @Given("pengguna berada pada tampilan utama")
