@@ -82,6 +82,7 @@ Feature: Web Otomasi
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
     Then pengguna menekan tombol home
+    Then pengguna memilih kategory phone
     Then pengguna memilih produk "Nexus 6"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
@@ -142,6 +143,7 @@ Feature: Web Otomasi
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
     Then pengguna menekan tombol home
+    Then pengguna memilih kategory laptop
     Then pengguna memilih produk "MacBook air"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
@@ -202,6 +204,7 @@ Feature: Web Otomasi
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
     Then pengguna menekan tombol home
+    Then pengguna memilih kategory monitor
     Then pengguna memilih produk "ASUS Full HD"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
