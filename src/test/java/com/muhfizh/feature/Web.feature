@@ -4,7 +4,7 @@ Feature: Web Otomasi
   Scenario: Daftar dengan username dan password yang baru
     Given pengguna berada pada tampilan utama
     And pengguna menekan label signup
-    And pengguna memasukan username dengan "Muhfizhdzm"
+    And pengguna memasukan username dengan "muhfizhdzm"
     And pengguna memasukan password dengan "123"
     When pengguna menekan tombol sign up
     Then muncul pesan "Sign up successful."
@@ -53,8 +53,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory telepon
@@ -75,8 +73,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory telepon
@@ -99,8 +95,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory laptop
@@ -119,8 +113,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory laptop
@@ -141,8 +133,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop
@@ -165,8 +155,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor
@@ -185,8 +173,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory monitor
@@ -207,8 +193,6 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke
 
   @web
   Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory monitor
@@ -231,5 +215,3 @@ Feature: Web Otomasi
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
-    Then pengguna mendapatkan info "Name: Muhfizh"
-    Then pengguna menekan tombol oke

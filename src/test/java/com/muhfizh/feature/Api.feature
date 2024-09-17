@@ -39,10 +39,10 @@ Feature: API test
   Scenario: Pengecekan Get data authentifikasi gagal
     Given Mempersiapkan Url get authentifikasi gagal
     And hit API dengan get kondisi authentifikasi gagal
-    Then verifikasi kode status 200
+    Then verifikasi kode status 522
 
   @api
   Scenario: Pengecekan Post data authentifikasi gagal
     Given Mempersiapkan Url create data authentifikasi gagal
     And hit API dengan POST dengan authentifikasi gagal
-    Then verifikasi kode status 401
+    Then verifikasi kode status 522

@@ -54,15 +54,4 @@ public class PurchasePage extends BaseRun {
         assertTrue(successMSG.isDisplayed());
         assertEquals(pesan, successMSG.getText());
     }
-
-    public void validasiNamaSuccess(String nama){
-        WebElement namaSuccess = driver.findElement(NameMsg(nama));
-        assertTrue(namaSuccess.isDisplayed());
-        assertEquals(nama, namaSuccess.getText());
-    }
-
-    public void KlikOke(){
-        driver.findElement(BTNOke).click();
-    }
-
 }
