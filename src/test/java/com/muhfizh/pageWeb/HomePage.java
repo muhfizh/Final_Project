@@ -49,10 +49,16 @@ public class HomePage extends BaseRun {
     public void klikKategori(String kategory){
         switch (kategory) {
             case "Phones":
+                wait.until(ExpectedConditions.visibilityOfElementLocated(CategoryPhone));
+                wait.until(ExpectedConditions.elementToBeClickable(CategoryPhone));
                 driver.findElement(CategoryPhone).click();
             case "Laptops":
+                wait.until(ExpectedConditions.visibilityOfElementLocated(CategoryLaptop));
+                wait.until(ExpectedConditions.elementToBeClickable(CategoryLaptop));
                 driver.findElement(CategoryLaptop).click();
             case "Monitors":
+                wait.until(ExpectedConditions.visibilityOfElementLocated(CategoryMonitor));
+                wait.until(ExpectedConditions.elementToBeClickable(CategoryMonitor));
                 driver.findElement(CategoryMonitor).click();
         }
     }

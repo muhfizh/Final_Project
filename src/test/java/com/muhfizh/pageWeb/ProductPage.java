@@ -2,7 +2,6 @@ package com.muhfizh.pageWeb;
 
 import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ProductPage extends BaseRun {
 
@@ -12,14 +11,10 @@ public class ProductPage extends BaseRun {
     By AddToCartBTN = By.xpath("//*[text()='Add to cart']");
 
     public void klikproduct(String product){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(ProductTitle(product)));
-        wait.until(ExpectedConditions.elementToBeClickable(ProductTitle(product)));
         driver.findElement(ProductTitle(product)).click();
     }
 
     public void klikaddtocart(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(AddToCartBTN));
-        wait.until(ExpectedConditions.elementToBeClickable(AddToCartBTN));
         driver.findElement(AddToCartBTN).click();
     }
 

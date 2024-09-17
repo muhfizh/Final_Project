@@ -7,7 +7,8 @@
     <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push edit web &amp; api testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/contoh final project/cek/Final_Project_API-and-WEB_Automation_Testing_Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/contoh final project/cek/Final_Project_API-and-WEB_Automation_Testing_Java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop">
     <configuration name="Scenario: Daftar dengan username dan password yang baru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726550198853</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Commit push edit web &amp; api testing">
+      <created>1726561866258</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726561866258</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
