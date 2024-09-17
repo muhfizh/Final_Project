@@ -9,7 +9,7 @@ on:
 
 jobs:
   API-and-WEB-AutomationTesting :
-    runs-on: windows-latest
+    runs-on: Ubuntu-latest
 
     steps:
     #download repo
