@@ -14,20 +14,19 @@ public class BaseRun {
     public static WebDriverWait wait;
 
     public static void getDriver(){
-        ChromeOptions options = new ChromeOptions();
+        ChromeOptions chrome = new ChromeOptions();
 
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm=usage");
-        options.addArguments("--remote-allow=origin=*");
-        options.addArguments("--window-size=1920,1080");
+        chrome.addArguments("--headless");
+        chrome.addArguments("--no-sandbox");
+        chrome.addArguments("--disable-dev-shm-usage");
+        chrome.addArguments("--remote-allow-origins=*");
 
-        WebDriverManager.chromedriver().clearDriverCache().setup();
-
-        driver = new ChromeDriver(options);
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver(chrome);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+        driver.get("https://www.demoblaze.com/");
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
     }
 
