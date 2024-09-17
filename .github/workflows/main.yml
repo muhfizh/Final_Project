@@ -9,7 +9,7 @@ on:
 
 jobs:
   API-and-WEB-AutomationTesting :
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     #download repo
@@ -36,6 +36,9 @@ jobs:
         gradle-version: 8.5
     - name: Make gradlew executable
       run: chmod +x ./gradlew
+      
+    - name: Make gradlew clean
+      run: ./gradlew clean
       
     - name: Execute API test
       run: ./gradlew ApiTesting
