@@ -24,10 +24,10 @@ public class BaseRun {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chrome);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.demoblaze.com/");
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
     public static void GetClosed(){

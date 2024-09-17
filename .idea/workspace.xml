@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push edit web &amp; api testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/Utility/BaseRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop">
     <configuration name="Scenario: Daftar dengan username dan password yang baru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
@@ -66,26 +68,6 @@
       <option name="NAME_FILTER" value="^Daftar dengan username dan password yang baru$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Daftar dengan username dan password yang baru$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Daftar dengan username dan password yang baru" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Masuk dengan username dan password yang benar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
-      <option name="GLUE" value="com.muhfizh.StepDefWeb" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Final_Project.test" />
-      <option name="NAME_FILTER" value="^Masuk dengan username dan password yang benar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Masuk dengan username dan password yang benar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Masuk dengan username dan password yang benar" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,6 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
+      <option name="GLUE" value="com.muhfizh.StepDefWeb" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final_Project.test" />
+      <option name="NAME_FILTER" value="^Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerWeb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,19 +163,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" />
       <item itemvalue="Cucumber Java.Scenario: Daftar dengan username dan password yang baru" />
-      <item itemvalue="Cucumber Java.Scenario: Masuk dengan username dan password yang benar" />
       <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory laptop" />
       <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor" />
       <item itemvalue="Gradle.RunnerWeb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" />
+        <item itemvalue="Gradle.RunnerWeb" />
         <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor" />
         <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory laptop" />
         <item itemvalue="Cucumber Java.Scenario: Daftar dengan username dan password yang baru" />
-        <item itemvalue="Gradle.RunnerWeb" />
-        <item itemvalue="Cucumber Java.Scenario: Masuk dengan username dan password yang benar" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726542552984</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit push edit web &amp; api testing">
+      <created>1726550198853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726550198853</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
