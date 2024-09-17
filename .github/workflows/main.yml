@@ -1,6 +1,8 @@
 name: API and WEB UI Automation Testing
 
-on:
+on: 
+  push:
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
   workflow_dispatch:
