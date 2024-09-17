@@ -24,7 +24,11 @@ Anda dapat menjalankan tugas khusus yang telah dibuat dengan perintah berikut:
 ```bash
 ./gradlew WebTesting
 ```
-Untuk mendapatkan report allure gunaka perintah berikut:
+3. untuk melakukan build semua task yang ada:
+```bash
+./gradlew Build
+```
+Untuk mendapatkan report allure gunaka perintah berikut: 
 ```bash
 allure serve build/allure-results
 ```
