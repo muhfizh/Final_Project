@@ -4,8 +4,8 @@ Feature: Web Otomasi
   Scenario: Daftar dengan username dan password yang baru
     Given pengguna berada pada tampilan utama
     And pengguna menekan label signup
-    And pengguna memasukan username dengan "muhfizhdzm"
-    And pengguna memasukan password dengan "123"
+    And pengguna memasukan username
+    And pengguna memasukan password
     When pengguna menekan tombol sign up
     Then muncul pesan "Sign up successful."
 
@@ -77,7 +77,7 @@ Feature: Web Otomasi
   @web
   Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory telepon
     Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory laptop
+    Then pengguna memilih kategory phone
     Then pengguna memilih produk "Samsung galaxy s6"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"

@@ -1,6 +1,7 @@
 package com.muhfizh.Utility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -33,5 +34,14 @@ public class BaseRun {
     public static void GetClosed(){
         driver.close();
         driver.quit();
+    }
+
+    public static String GenerateName(){
+        String username = RandomStringUtils.randomAlphanumeric(10);
+        return username;
+    }
+    public static String GeneratePassword(){
+        String password = RandomStringUtils.randomAlphanumeric(8);
+        return password;
     }
 }

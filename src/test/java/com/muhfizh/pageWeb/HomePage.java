@@ -48,11 +48,11 @@ public class HomePage extends BaseRun {
 
     public void klikKategori(String kategory){
         switch (kategory) {
-            case "Phone":
+            case "Phones":
                 driver.findElement(CategoryPhone).click();
-            case "Laptop":
+            case "Laptops":
                 driver.findElement(CategoryLaptop).click();
-            case "Monitor":
+            case "Monitors":
                 driver.findElement(CategoryMonitor).click();
         }
     }
