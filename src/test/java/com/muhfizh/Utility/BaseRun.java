@@ -27,7 +27,7 @@ public class BaseRun {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
         driver.get("https://www.demoblaze.com/");
 
-
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     public static void GetClosed(){
