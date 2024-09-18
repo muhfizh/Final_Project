@@ -92,7 +92,6 @@ Feature: Web Otomasi
   @web
   Scenario: Pengguna melakukan pembayaran tanpa mengisi nama
     Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory phone
     Then pengguna memilih produk "Samsung galaxy s6"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
@@ -101,6 +100,22 @@ Feature: Web Otomasi
     And pengguna mengisi negara "Indonesia"
     And pengguna mengisi kota "Bandung"
     And pengguna mengisi kartu kredit "0121001470"
+    And pengguna mengisi bulan "November"
+    And pengguna mengisi tahun "1997"
+    Then pengguna menekan tombol purchase
+    Then muncul pesan "Please fill out Name and Creditcard."
+
+  @web
+  Scenario: Pengguna melakukan pembayaran tanpa mengisi kartu kredit
+    Given pengguna berada pada tampilan utama
+    Then pengguna memilih produk "Samsung galaxy s6"
+    Then pengguna menekan tombol add to cart
+    Then muncul pesan "Product added"
+    When pengguna menekan tombol cart
+    Then pengguna menekan tombol place order
+    And pengguna mengisi nama "Muhfizh"
+    And pengguna mengisi negara "Indonesia"
+    And pengguna mengisi kota "Bandung"
     And pengguna mengisi bulan "November"
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase

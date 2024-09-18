@@ -2,7 +2,6 @@ package com.muhfizh.pageWeb;
 
 import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ProductPage extends BaseRun {
