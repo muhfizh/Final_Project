@@ -16,10 +16,10 @@ jobs:
     - uses: actions/checkout@v4
 
     #setup java
-    - name: Set up JDK 17
+    - name: Set up JDK 18
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
+        java-version: '18'
         distribution: 'temurin'
 
     #install browser
@@ -29,11 +29,15 @@ jobs:
         chrome-version: 127
         install-chromedriver: true
 
+   #execute Checkout gradle
+    - name: Checkout sources
+      uses: actions/checkout@v4
+      
    #execute gradle command
-    - name: Setup Gradle 8.5
+    - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
       with:
-        gradle-version: 8.5
+        gradle-version: 8
     - name: Make gradlew executable
       run: chmod +x ./gradlew
       
