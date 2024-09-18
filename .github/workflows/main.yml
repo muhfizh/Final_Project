@@ -28,16 +28,11 @@ jobs:
       with:
         chrome-version: 127
         install-chromedriver: true
-
-   #execute Checkout gradle
-    - name: Checkout sources
-      uses: actions/checkout@v4
-      
+        
    #execute gradle command
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
-      with:
-        gradle-version: 8.0
+      
     - name: Make gradlew executable
       run: chmod +x ./gradlew
       
