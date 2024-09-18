@@ -3,6 +3,7 @@ package com.muhfizh.pageWeb;
 import com.muhfizh.Utility.BaseRun;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ProductPage extends BaseRun {
 
@@ -12,12 +13,9 @@ public class ProductPage extends BaseRun {
     By AddToCartBTN = By.xpath("//*[text()='Add to cart']");
 
     public void klikproduct(String product){
-        try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(ProductTitle(product)));
+            wait.until(ExpectedConditions.elementToBeClickable(ProductTitle(product)));
             driver.findElement(ProductTitle(product)).click();
-        } catch (StaleElementReferenceException e) {
-            driver.findElement(By.xpath("//a[contains(text(),'"+product+"')]")).click();
-        }
-
     }
 
     public void klikaddtocart(){

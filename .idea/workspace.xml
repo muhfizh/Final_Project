@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c96ef65-f86a-4b0e-9c2b-a6f8eba6f7c5" name="Changes" comment="Commit push edit web &amp; api testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muhfizh/pageWeb/PurchasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +51,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Belajar/contoh final project/cek/Final_Project_API-and-WEB_Automation_Testing_Java",
+    "last_opened_file_path": "C:/Users/muhfi/OneDrive/Documents/Jay Jay School/Software QA Engineer/Final Project/Final_Project",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop">
+  <component name="RunManager" selected="Gradle.RunnerWeb">
     <configuration name="Scenario: Daftar dengan username dan password yang baru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/muhfizh/feature/Web.feature" />
@@ -169,8 +171,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" />
         <item itemvalue="Gradle.RunnerWeb" />
+        <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 2 produk dari produk yang berbeda pada kategory laptop" />
         <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor" />
         <item itemvalue="Cucumber Java.Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory laptop" />
         <item itemvalue="Cucumber Java.Scenario: Daftar dengan username dan password yang baru" />
@@ -305,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726565839374</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Commit push edit web &amp; api testing">
+      <created>1726568157935</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726568157935</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

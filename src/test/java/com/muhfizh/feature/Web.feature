@@ -37,9 +37,8 @@ Feature: Web Otomasi
     Then pengguna gagal login dengan pesan "Wrong password."
 
   @web
-  Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory telepon
+  Scenario: Pengguna melakukan pembayaran produk pada kategory telepon
     Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory phone
     Then pengguna memilih produk "Samsung galaxy s6"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
@@ -55,27 +54,7 @@ Feature: Web Otomasi
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
 
   @web
-  Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory telepon
-    Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory phone
-    Then pengguna memilih produk "Samsung galaxy s6"
-    Then pengguna menekan tombol add to cart
-    Then muncul pesan "Product added"
-    Then pengguna menekan tombol add to cart
-    Then muncul pesan "Product added"
-    When pengguna menekan tombol cart
-    Then pengguna menekan tombol place order
-    And pengguna mengisi nama "Muhfizh"
-    And pengguna mengisi negara "Indonesia"
-    And pengguna mengisi kota "Bandung"
-    And pengguna mengisi kartu kredit "0121001470"
-    And pengguna mengisi bulan "November"
-    And pengguna mengisi tahun "1997"
-    Then pengguna menekan tombol purchase
-    Then pengguna mendapatkan pesan "Thank you for your purchase!"
-
-  @web
-  Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory laptop
+  Scenario: Pengguna melakukan pembayaran produk pada kategory laptop
     Given pengguna berada pada tampilan utama
     Then pengguna memilih kategory laptop
     Then pengguna memilih produk "Sony vaio i5"
@@ -93,27 +72,7 @@ Feature: Web Otomasi
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
 
   @web
-  Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory laptop
-    Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory laptop
-    Then pengguna memilih produk "Sony vaio i5"
-    Then pengguna menekan tombol add to cart
-    Then muncul pesan "Product added"
-    Then pengguna menekan tombol add to cart
-    Then muncul pesan "Product added"
-    When pengguna menekan tombol cart
-    Then pengguna menekan tombol place order
-    And pengguna mengisi nama "Muhfizh"
-    And pengguna mengisi negara "Indonesia"
-    And pengguna mengisi kota "Bandung"
-    And pengguna mengisi kartu kredit "0121001470"
-    And pengguna mengisi bulan "November"
-    And pengguna mengisi tahun "1997"
-    Then pengguna menekan tombol purchase
-    Then pengguna mendapatkan pesan "Thank you for your purchase!"
-
-  @web
-  Scenario: Pengguna melakukan pembayaran 1 buah produk pada kategory monitor
+  Scenario: Pengguna melakukan pembayaran produk pada kategory monitor
     Given pengguna berada pada tampilan utama
     Then pengguna memilih kategory monitor
     Then pengguna memilih produk "Apple monitor 24"
@@ -131,21 +90,18 @@ Feature: Web Otomasi
     Then pengguna mendapatkan pesan "Thank you for your purchase!"
 
   @web
-  Scenario: Pengguna melakukan pembayaran 2 buah produk pada kategory monitor
+  Scenario: Pengguna melakukan pembayaran tanpa mengisi nama
     Given pengguna berada pada tampilan utama
-    Then pengguna memilih kategory monitor
-    Then pengguna memilih produk "Apple monitor 24"
-    Then pengguna menekan tombol add to cart
-    Then muncul pesan "Product added"
+    Then pengguna memilih kategory phone
+    Then pengguna memilih produk "Samsung galaxy s6"
     Then pengguna menekan tombol add to cart
     Then muncul pesan "Product added"
     When pengguna menekan tombol cart
     Then pengguna menekan tombol place order
-    And pengguna mengisi nama "Muhfizh"
     And pengguna mengisi negara "Indonesia"
     And pengguna mengisi kota "Bandung"
     And pengguna mengisi kartu kredit "0121001470"
     And pengguna mengisi bulan "November"
     And pengguna mengisi tahun "1997"
     Then pengguna menekan tombol purchase
-    Then pengguna mendapatkan pesan "Thank you for your purchase!"
+    Then muncul pesan "Please fill out Name and Creditcard."
